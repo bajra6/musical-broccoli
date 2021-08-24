@@ -47,8 +47,11 @@ const BestSellersAndNewArrivals = () => {
                         </Row>
 
                     </Container>
+                    <Col md={3}>
+                        <img alt="advertisement" src="./img/landingpage/sideadv.png" style={{width:"100%", objectFit:"fill"}}></img>
+                    </Col>
                 </Col>
-                <Col md={9}>
+                {/* <Col md={9}>
                     <Container style={{backgroundColor:"#FEEEEE", height:'100%'}}>
                         <Row >
                             <div className="d-flex">
@@ -67,18 +70,15 @@ const BestSellersAndNewArrivals = () => {
                             <Col lg={3} md={6} sm={6} style={{border: "1px solid white"}}><Products/></Col>
                         </Row>
                     </Container>
-                </Col>
+                </Col> */}
             </Row>
-            <Row>
-                <Col md={3}>
-                    <img alt="advertisement" src="./img/landingpage/sideadv.png" style={{height:"100%", width:"100%", objectFit:"fill"}}></img>
-                </Col>
-                <Col md={9}>
+            {/* <Row> */}
+                {/* <Col md={9}>
                     <div style={{backgroundColor: "#FEEEEE", padding: "0.5rem 1rem 1rem 1rem", height:"100%"}}>
                         <img alt="big pic" src="./img/landingpage/bigimage.png" style={{height:"100%", width:"100%", objectFit:"fill"}}></img>
                     </div>
-                </Col>
-            </Row>
+                </Col> */}
+            {/* </Row> */}
         </Container>
     </div> );
 }
