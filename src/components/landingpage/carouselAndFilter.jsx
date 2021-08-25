@@ -1,8 +1,6 @@
-import { Container, Row, Col, Dropdown } from "react-bootstrap";
-import PageCarousel from "./Carousel";
 import { useState, useEffect } from "react";
-import CarouselLaptop from "./CarouselAndFilter/laptop";
-import CarouselMobile from "./CarouselAndFilter/mobile";
+import Laptop from "./homepage/laptop";
+import Mobile from "./homepage/mobile";
 
 const CarouselAndFilter = () => {
 
@@ -28,7 +26,7 @@ const CarouselAndFilter = () => {
 
     return ( 
         <div>
-            {device==="laptop"?<CarouselLaptop />:<CarouselMobile />}
+            {device==="laptop"?<Laptop />:<Mobile />}
         </div>
     )
 }

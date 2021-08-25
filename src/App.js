@@ -1,15 +1,25 @@
-// import { Button } from 'react-bootstrap';
 import Navbar from './components/navbar';
 import CarouselAndFilter from './components/landingpage/carouselAndFilter';
-import BestSellersAndNewArrivals from './components/landingpage/bestSellersAndNewArrivals';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SearchPage from './components/search/SearchPage';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <CarouselAndFilter />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <div className="App">
+            <Navbar />
+            <CarouselAndFilter />
+          </div>
+        </Route>
+
+        <Route exact path="/search">
+          <SearchPage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

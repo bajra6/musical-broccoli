@@ -1,21 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Advertisement from "../Advertisement";
-import BestSeller from "../BestSeller";
-import Blog from "../Blog";
-import Electronics from "../Electronics"
-import Categories from "../Categories"
-import HotProducts from "../HotProducts";
-import ToolsAndEquipment from "../ToolsAndEquipment";
-import OfferAdvertisement from "../Advertisement2"
-import Banner from "../Banner";
-import NewArrivals from "../NewArrivals";
+import Advertisement from "../leftSide/Advertisement";
+import BestSeller from "../leftSide/BestSeller";
+import Blog from "../leftSide/Blog";
+import Electronics from "../rightSide/Electronics"
+import Categories from "../leftSide/Categories"
+import HotProducts from "../leftSide/HotProducts";
+import ToolsAndEquipment from "../rightSide/ToolsAndEquipment";
+import OfferAdvertisement from "../leftSide/Advertisement2"
+import Banner from "../rightSide/Banner";
+import NewArrivals from "../rightSide/NewArrivals";
 
 
-const CarouselLaptop = () => {
+const Laptop = () => {
     return (
         <Container fluid="md">
             <Row>
-                <Col sm={3} md={3} style={{}}>
+                <Col sm={3} md={3}>
                     <Categories />
                     <br />
                     <br />
@@ -52,4 +52,4 @@ const CarouselLaptop = () => {
     );
 }
  
-export default CarouselLaptop;
+export default Laptop;

@@ -1,0 +1,52 @@
+.selectors {
+  background-color: #d6210e;
+  margin: 0.5rem 0.5rem 0 0;
+  color: white;
+  border-radius: 0.2rem 0.2rem 0 0;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.selectorsUnselected {
+  background-color: white;
+  margin: 0.5rem 0.5rem 0 0;
+  border-radius: 0.2rem 0.2rem 0 0;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.toggleUnclicked {
+  background-color: white;
+  font-size: 1.5rem;
+  border: none;
+  color: #252527;
+  border-radius: 0.2rem;
+  padding: 0rem 0.8rem;
+  margin: 0.5rem 0.5rem 0 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.toggleClicked {
+  background-color: #d6210e;
+  font-size: 1.5rem;
+  border: none;
+  color: #ffefef;
+  border-radius: 0.2rem;
+  padding: 0rem 0.8rem;
+  margin: 0.5rem 0.5rem 0 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.electronicProduct {
+  border: 1px solid white;
+}
+
+.hw100objfill {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
