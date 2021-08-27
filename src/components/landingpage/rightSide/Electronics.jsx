@@ -70,7 +70,7 @@ const Electronics = () => {
                 </div>
             </Row>
             <Row>
-                {data[next].map((product) => (
+                {data[Math.abs(next)].map((product) => (
                         <Col xl={3} md={6} sm={6} className={styles.electronicProduct}><Products name={product.name} img={product.img} price={product.price}/></Col>
                 ))}    
             </Row>
