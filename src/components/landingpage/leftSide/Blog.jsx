@@ -9,8 +9,8 @@ const Blog = () => {
                 <img src="./img/landingpage/logo.png" alt="logo"/>
                 <div>BLOG</div>
                 <div>
-                    <span className="carousel-control-prev-icon" style={{maxHeight:"1rem"}}></span>
-                    <span className="carousel-control-next-icon" style={{maxHeight:"1rem"}}></span>
+                    <span onClick={() => {}} className="carousel-control-prev-icon" style={{maxHeight:"1rem", cursor:"pointer"}}></span>
+                    <span onClick={() => {}} className="carousel-control-next-icon" style={{maxHeight:"1rem", cursor:"pointer"}}></span>
                 </div>
             </div>
             <Container fluid="true">

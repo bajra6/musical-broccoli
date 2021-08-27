@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Laptop from "./homepage/laptop";
-import Mobile from "./homepage/mobile";
 
 const CarouselAndFilter = () => {
 
@@ -26,7 +25,7 @@ const CarouselAndFilter = () => {
 
     return ( 
         <div>
-            {device==="laptop"?<Laptop />:<Mobile />}
+            <Laptop />
         </div>
     )
 }

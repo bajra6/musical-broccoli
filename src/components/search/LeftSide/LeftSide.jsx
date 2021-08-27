@@ -164,7 +164,7 @@ const LeftSide = ({ updateData }) => {
                 <div style={{cursor:"pointer"}} onClick={() => clickPrice(!price)}>{price?<span>&gt;</span>: <span>^</span>}</div>
             </div>
             <div style={price?{display:"none"}:{}}>
-                <div style={{margin:"1rem 1rem 0 1rem"}}><input style={{color:"#D6210E", width:"100%"}} type="range" id="condition1" min="0" max="1000" value="500"/></div>
+                <div style={{margin:"1rem 1rem 0 1rem"}}><input style={{color:"#D6210E", width:"100%"}} type="range" id="condition1" min="0" max="1000"/></div>
             </div>
         </div>
 

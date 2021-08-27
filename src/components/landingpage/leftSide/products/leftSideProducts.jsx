@@ -7,9 +7,9 @@ const LeftSideProducts = (props) => {
                 <img alt="product" src={props.img} style={{height:"100%", width:"100%"}}/>
             </Col>
             <Col xs={7} style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
-                <div>{props.pname}</div>
+                <div>{props.name}</div>
                 <div>* * * * *</div>
-                <div>{props.price}</div>
+                <div>$ {props.price}</div>
             </Col>
         </>
      );

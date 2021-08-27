@@ -9,6 +9,12 @@ const PageCarousel = () => {
             height:"100%",
             width:"100%",
             objectFit:"fill"
+        }, 
+        shopnow:{
+            zIndex:"1000", 
+            margin:"-40% 0 0 7%", 
+            maxWidth:"30%", 
+            cursor:"pointer"
         }
     }
 
@@ -17,12 +23,15 @@ const PageCarousel = () => {
             <div className="carousel-inner" style={style.hw100}>
                 <div className="carousel-item active" style={style.hw100}>
                     <img src="./img/landingpage/carouselimg1.png" className="d-block w-100" alt="..." style={style.hw100objfil}/>
+                    <img src="./img/landingpage/button1.png" alt="shop now" onClick={() => console.log("shop now")} style={style.shopnow}></img>
                 </div>
                 <div className="carousel-item" style={style.hw100}>
                     <img src="./img/landingpage/carouselimg1.png" className="d-block w-100" alt="..." style={style.hw100objfil}/>
+                    <img src="./img/landingpage/button1.png" alt="shop now" onClick={() => console.log("shop now")} style={style.shopnow}></img>
                 </div>
                 <div className="carousel-item" style={style.hw100}>
                     <img src="./img/landingpage/carouselimg1.png" className="d-block w-100" alt="..." style={style.hw100objfil}/>
+                    <img src="./img/landingpage/button1.png" alt="shop now" onClick={() => console.log("shop now")} style={style.shopnow}></img>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
